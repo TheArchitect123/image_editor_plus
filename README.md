@@ -18,7 +18,7 @@ First, add `image_editor_plus:` as a [dependency in your pubspec.yaml file](http
 Import
 
 ```dart
-import 'package:image_editor_plus/image_editor_plus.dart';
+import 'package:image_editor_plus_fork/image_editor_plus.dart';
 ```
 
 ### iOS
@@ -90,7 +90,7 @@ final editedImage = await Navigator.push(
 ### Example - Image Convert
 
 ```dart
-import 'package:image_editor_plus/utils.dart';
+import 'package:image_editor_plus_fork/utils.dart';
 
 // to jpeg
 final convertedImage = await ImageUtils.convert(

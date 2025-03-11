@@ -12,15 +12,15 @@ import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hand_signature/signature.dart';
 import 'package:image/image.dart' as img;
-import 'package:image_editor_plus/data/image_item.dart';
-import 'package:image_editor_plus/data/layer.dart';
-import 'package:image_editor_plus/layers_viewer.dart';
-import 'package:image_editor_plus/loading_screen.dart';
-import 'package:image_editor_plus/modules/all_emojies.dart';
-import 'package:image_editor_plus/modules/layers_overlay.dart';
-import 'package:image_editor_plus/modules/link.dart';
-import 'package:image_editor_plus/modules/text.dart';
-import 'package:image_editor_plus/options.dart' as o;
+import 'package:image_editor_plus_fork/data/image_item.dart';
+import 'package:image_editor_plus_fork/data/layer.dart';
+import 'package:image_editor_plus_fork/layers_viewer.dart';
+import 'package:image_editor_plus_fork/loading_screen.dart';
+import 'package:image_editor_plus_fork/modules/all_emojies.dart';
+import 'package:image_editor_plus_fork/modules/layers_overlay.dart';
+import 'package:image_editor_plus_fork/modules/link.dart';
+import 'package:image_editor_plus_fork/modules/text.dart';
+import 'package:image_editor_plus_fork/options.dart' as o;
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:screenshot/screenshot.dart';
@@ -1359,7 +1359,7 @@ class _ImageCropperState extends State<ImageCropper> {
     if (widget.availableRatios.isNotEmpty) {
       currentRatio = widget.availableRatios.first.ratio;
     }
-    _controller.currentState?.rotate(right: true);
+    _controller.currentState?.rotate();
 
     super.initState();
   }

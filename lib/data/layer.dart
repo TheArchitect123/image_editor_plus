@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:image_editor_plus/data/image_item.dart';
+import 'package:image_editor_plus_fork/data/image_item.dart';
 
 /// Layer class with some common properties
 class Layer {

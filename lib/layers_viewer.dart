@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:image_editor_plus/data/layer.dart';
-import 'package:image_editor_plus/layers/background_blur_layer.dart';
-import 'package:image_editor_plus/layers/background_layer.dart';
-import 'package:image_editor_plus/layers/emoji_layer.dart';
-import 'package:image_editor_plus/layers/image_layer.dart';
-import 'package:image_editor_plus/layers/link_layer.dart';
-import 'package:image_editor_plus/layers/text_layer.dart';
+import 'package:image_editor_plus_fork/data/layer.dart';
+import 'package:image_editor_plus_fork/layers/background_blur_layer.dart';
+import 'package:image_editor_plus_fork/layers/background_layer.dart';
+import 'package:image_editor_plus_fork/layers/emoji_layer.dart';
+import 'package:image_editor_plus_fork/layers/image_layer.dart';
+import 'package:image_editor_plus_fork/layers/link_layer.dart';
+import 'package:image_editor_plus_fork/layers/text_layer.dart';
 
 /// View stacked layers (unbounded height, width)
 class LayersViewer extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:image_editor_plus/data/layer.dart';
+import 'package:image_editor_plus_fork/data/layer.dart';
 
 /// Main layer
 class BackgroundLayer extends StatefulWidget {
